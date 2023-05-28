@@ -1,0 +1,107 @@
+
+#shop{
+  transform: translate(90vw,-6vh);
+}
+.shop1{
+  transform: translate(92vw,-14vh);
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.card-header{
+  color :white;
+  font-weight:bolder;
+}
+
+main{
+  display:flex;
+}
+
+.bresil {
+  -webkit-animation: tracking-in-contract 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+  animation: tracking-in-contract 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+.burg {
+  -webkit-animation: focus-in-contract-bck 4s ease-out backwards;
+  animation: focus-in-contract-bck 4s ease-out backwards;
+}
+.men {
+  -webkit-animation: focus-in-contract-bck 4s ease-out backwards;
+  animation: focus-in-contract-bck 4s ease-out backwards;
+}
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.search-hero {
+  max-width: 500px;
+  padding-bottom: 20px;
+  margin:auto;
+}
+.form-control {
+  box-shadow: 0 10px 40px 0 #B0C1D9;
+}
+.form-control::placeholder  {
+  font-family: FontAwesome;
+}
